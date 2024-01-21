@@ -191,7 +191,12 @@
 			padding: 9px 15px;
 			border-radius: 13px;
 		}
-	
+		#create {
+			text-align: right; /* Align text to the right side of its container */
+ 			color: rgb(118, 113, 113); /* Set the text color to light grey */
+			font-size: 20px;
+			line-height: 1;
+		}
 
 
         /* for design for mobile version*/
@@ -227,6 +232,7 @@
             margin-right: 88px;
             margin-top: 20px;
         }
+        
         #result {
             margin-top: 40px;
             font-size: 60px;
@@ -260,6 +266,9 @@
           margin-right: 25px;
 		  margin-left: 20px;
         }
+		#create{
+			font-size: 30px;
+		}
 
 
 	</style>
@@ -329,7 +338,7 @@
 	</script>
 </head>
 <body>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br>
 	<h1>Roland-Morris Disability Questionnaire</h1>
     <button class = "increase-font-size-btn" id="increase-font-button"> A↑
     </button>
@@ -399,7 +408,7 @@
 
     </script>
 
-    <h2> Prince of Wales Hospital </h2>
+    <h2> New Territories East Cluster </h2>
     <h2> Physiotherapy Department </h2>
 	<form>
 
@@ -456,7 +465,7 @@
 			<br>
 			<input type="checkbox" name="section22" value="1" class="score"> 22. Because of my back/leg pain, I am more irritable and bad tempered with people than usual.
             <br>
-			<input type="checkbox" name="section23" value="1" class="score"> 23. Because of my back/leg, I go upstairs more slewly than usual.
+			<input type="checkbox" name="section23" value="1" class="score"> 23. Because of my back/leg, I go upstairs more slowly than usual.
             <br>
 			<input type="checkbox" name="section24" value="1" class="score"> 24. I stay in bed most of the time because of my back/leg.
 		<br>
@@ -470,6 +479,11 @@
 		<br>
 		<div class="centered-text">
 		  <h1>Thank you for finishing the questionnaire.</h1>
+		</div>
+		<div id="create">
+			<br>
+			<p>Produced by the Physiotherapy Department of</p>
+			<p>Prince of Wales Hospital</p>
 		</div>
 	</form>
 	<div id="popup">
